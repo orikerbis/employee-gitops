@@ -9,7 +9,7 @@ client:
     name: employee-app-frontend
     type: ClusterIP
     port: 80
-  replicaCount: 1
+  replicaCount: 3
 server:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/backend
