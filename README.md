@@ -20,7 +20,7 @@ File Descriptions
 
 • prod/values.yaml: Configuration for the production environment.
 
-Key Features
+  Key Features
 
 • Environment-Specific Configurations: Isolated directories for dev, test, and prod ensure independent and tailored configurations for each environment.
 
