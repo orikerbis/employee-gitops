@@ -4,7 +4,7 @@ global:
 client:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/frontend
-    tag: 1d9844000ce3daa42ceb4d210c1080a043b3432c
+    tag: 1384f6d42ad5d5cbdd3bd4ddeb9d6b77320baf65
   service:
     name: employee-app-frontend
     type: ClusterIP
@@ -13,7 +13,7 @@ client:
 server:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/backend
-    tag: 1d9844000ce3daa42ceb4d210c1080a043b3432c
+    tag: 1384f6d42ad5d5cbdd3bd4ddeb9d6b77320baf65
   service:
     name: employee-app-backend
     type: ClusterIP
