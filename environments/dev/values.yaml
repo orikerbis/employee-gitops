@@ -1,7 +1,7 @@
 global:
   imagePullPolicy: IfNotPresent
   namespace: employee-app
-  secretName: "app/dev/db-credentials"
+  secretName: "app/dev/db-credentials-demo"
 grafana:
   service:
     name: prometheus-grafana
