@@ -2,26 +2,23 @@ global:
   imagePullPolicy: IfNotPresent
   namespace: employee-app
   secretName: "employee-system-5/dev/db-credentials"
-
 grafana:
   service:
     name: prometheus-grafana
     port: 80
-
 client:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/frontend
-    tag: "1a9e6b8cd65a703e7792f671d395429df21cc984"
+    tag: "2102c5d89bb8a6aa90a7403083bea4b8855ff439"
   service:
     name: "dev-employee-app-frontend"
     type: NodePort
     port: 80
   replicaCount: 3
-
 server:
   image:
     repository: 825765414083.dkr.ecr.us-east-2.amazonaws.com/dev/backend
-    tag: "1a9e6b8cd65a703e7792f671d395429df21cc984"
+    tag: "2102c5d89bb8a6aa90a7403083bea4b8855ff439"
   service:
     name: "dev-employee-app-backend"
     type: NodePort
